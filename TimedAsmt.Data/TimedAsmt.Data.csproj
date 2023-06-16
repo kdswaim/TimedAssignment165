@@ -1,5 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
+  <ItemGroup>
+    <ProjectReference Include="..\TimedAsmt.Models\TimedAsmt.Models.csproj" />
+    <ProjectReference Include="..\TimedAsmt.Services\TimedAsmt.Services.csproj" />
+  </ItemGroup>
+
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
