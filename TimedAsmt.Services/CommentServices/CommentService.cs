@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace TimedAsmt.Services.CommentServices
 {
-    public class CommentService
+    public class CommentService: ICommentService
     {
         
     }

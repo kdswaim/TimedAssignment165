@@ -4,9 +4,10 @@
     <TargetFramework>net7.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>9f33259c-76ee-4031-b629-e2760ee02ec9</UserSecretsId>
   </PropertyGroup>
 
-   <ItemGroup>
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.12" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.1">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -21,10 +22,10 @@
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.25.1" />
   </ItemGroup>
 
-   <ItemGroup>
-     <ProjectReference Include="..\TimedAsmt.Data\TimedAsmt.Data.csproj" />
-     <ProjectReference Include="..\TimedAsmt.Models\TimedAsmt.Models.csproj" />
-     <ProjectReference Include="..\TimedAsmt.Services\TimedAsmt.Services.csproj" />
-   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TimedAsmt.Data\TimedAsmt.Data.csproj" />
+    <ProjectReference Include="..\TimedAsmt.Models\TimedAsmt.Models.csproj" />
+    <ProjectReference Include="..\TimedAsmt.Services\TimedAsmt.Services.csproj" />
+  </ItemGroup>
 
 </Project>

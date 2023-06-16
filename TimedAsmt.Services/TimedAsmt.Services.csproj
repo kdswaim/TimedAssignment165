@@ -1,8 +1,8 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\TimedAsmt.Models\TimedAsmt.Models.csproj" />
     <ProjectReference Include="..\TimedAsmt.Data\TimedAsmt.Data.csproj" />
+    <ProjectReference Include="..\TimedAsmt.Models\TimedAsmt.Models.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
