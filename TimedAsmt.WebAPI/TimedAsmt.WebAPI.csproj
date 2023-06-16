@@ -21,4 +21,10 @@
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.25.1" />
   </ItemGroup>
 
+   <ItemGroup>
+     <ProjectReference Include="..\TimedAsmt.Data\TimedAsmt.Data.csproj" />
+     <ProjectReference Include="..\TimedAsmt.Models\TimedAsmt.Models.csproj" />
+     <ProjectReference Include="..\TimedAsmt.Services\TimedAsmt.Services.csproj" />
+   </ItemGroup>
+
 </Project>
