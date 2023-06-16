@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 
 namespace TimedAsmt.Data.Data
 {
@@ -12,7 +13,7 @@ namespace TimedAsmt.Data.Data
 
         }
 
-        public DbSet<comment> Comments {get; set;}
+        public DbSet<Comment> Comments {get; set;}
         public DbSet<Hate> Hates {get; set;}
         public DbSet<Post> Posts {get; set;}
         public DbSet<Reply> Replies {get; set;}
