@@ -1,5 +1,12 @@
 
 
+using Microsoft.EntityFrameworkCore;
+using TimedAsmt.Data.Context;
+using TimedAsmt.Services.CommentServices;
+using TimedAsmt.Services.HateServices;
+using TimedAsmt.Services.PostServices;
+using TimedAsmt.Services.ReplyServices;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.

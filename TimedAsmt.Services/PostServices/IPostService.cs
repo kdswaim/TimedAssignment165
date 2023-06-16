@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace TimedAsmt.Services.PostServices
 {
-    public class IPostService
+    public interface IPostService
     {
         
     }

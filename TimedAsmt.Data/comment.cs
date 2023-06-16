@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace TimedAsmt.Data
 {
-    public class comment
+    public class Comment
     {
         
     }

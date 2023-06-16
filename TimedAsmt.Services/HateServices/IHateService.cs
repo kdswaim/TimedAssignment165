@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace TimedAsmt.Services.HateServices
 {
-    public class IHateService
+    public interface IHateService
     {
         
     }

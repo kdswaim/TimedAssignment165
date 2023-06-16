@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace TimedAsmt.Services.ReplyServices
 {
-    public class ReplyService
+    public class ReplyService: IReplyService
     {
         
     }
