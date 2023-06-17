@@ -1,0 +1,16 @@
+Post class
+ int Id
+ string Title
+ string Text
+ (virtual list of Comments)
+ (virtual list of Likes) - if applicable
+ Guid AuthorId
+
+
+Comment class
+ int Id
+ string Text
+ Guid AuthorId = it is a 32 bit hexadeimal num, it is used for authonication
+                 this will be used to compare the comments author id to the post author id in the services layer.
+ (virtual list of Replies)
+ (Foreign Key to Post via Id w/ virtual Post) 
