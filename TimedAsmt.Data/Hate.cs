@@ -7,6 +7,6 @@ namespace TimedAsmt.Data
 {
     public class Hate
     {
-        
+        public int OwnerId { get; set; }
     }
 }

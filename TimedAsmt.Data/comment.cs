@@ -7,6 +7,6 @@ namespace TimedAsmt.Data
 {
     public class comment
     {
-        
+        public string AuthorId { get; set; }
     }
 }
